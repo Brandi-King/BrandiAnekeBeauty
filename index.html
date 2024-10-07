@@ -1,6 +1,60 @@
 <!doctype html>
 <html>
 <head>
+	<style
+		   >
+body {margin:0;}
+
+	
+		
+		
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color:indianred; 
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">Beauty</a></li>
+  <li><a href="#contact">Skin</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+<div style="padding:20px;margin-top:30px;background-color:;height:100px;">
+  <h1>Beauty Lives in You</h1>
+  
+	</div>
+<head>
+	
 <meta charset="utf-8">
 <title>Brandi Aneke Beauty</title>
 	<link rel="stylesheet" href="main.css">
@@ -9,33 +63,79 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
 </head>
-<body>
+</body>
 	<div id="container">
 	<header> <h1 class="kaushan script; text-align:center;font-family:Kaushan Script ;font-size: 305%"> Brandi Aneke Enterprise's</h1> </header>
-		<nav></nav>
-		<section>
-		<article class="left"><h2 style="text-align: center; font-family: georgia;font-size: 175%"></h2>
-			<p><a href="https://www.instagram.com/reel/CtzB5G6uAdf/">Paul Mitchell Colorways Color</a>
-			<img src="red-hair.png" alt="short red hair style" usemap="#redhairmap" >
-			<map name="#redhairmap"></map>
-			<area shape="poly" coords="6,10,132,6,134,179,4,179" alt=""
-			
-			</p>
-			</article>
-			<article class="right"><h2 style="text-align: center; font-family: georgia;font-size: 175%"></h2>
-			<p><a href="https://www.instagram.com/p/C14eR1cukwy/">Box Braids</a></p>
-			<img src="braids.png" alt="faux locs style"></article>
-			
-		</section>
-		
-		
-			
-			
-			
-			<footer>Copyright Brandi Aneke 2024
-		</footer>
-		
-		
+		<style>
+	input[type=text], select {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color:rgba(45,169,239,1.00);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:rgba(243,218,87,1.00)
+}
+
+div {
+  border-radius: 5px;
+  background-color: #E8BF66; 
+  padding: 15px;
+}
+</style>
+
+<h3><font>Register and Specialty Update</font>
+		  </h3>
+
 	</div>
-</body>
-</html>
+<body>
+<div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="Job">Specialty</label>
+    <select id="Job" name="Specialty">
+      <option value="Photography">Photography</option>
+      <option value="Web Design">Web Design</option>
+      <option value="Digital Media">Digital Media</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+		
+		
+	 </form>
+	
+</div>
+	
+	
+			
+			<footer>Copyright Brandi Aneke 2024 <audio controls autoplay muted>
+  <source src="Media/Beauty-is-life.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <svg width="400" height="180">
+  <rect x="50" y="20" rx="20" ry="20" width="350" height="150"
+  style="fill:pink;stroke:black;stroke-width:5;opacity:0.75" />
+Sorry, your browser does not support inline SVG.
+</svg>
+		</footer>
+		</body>
+		</html>
